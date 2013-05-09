@@ -20,9 +20,9 @@
 
   frequency = 0.3;
 
-  width = width || 255 / 2;
+  width = 255 / 2;
 
-  center = center || 255 / 2;
+  center = 255 / 2;
 
   rgb2color = function(r, g, b) {
     return "rgb(" + r + ", " + g + ", " + b + ")";

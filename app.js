@@ -27,7 +27,7 @@ if ('development' == app.get('env')) {
   app.locals.pretty = true;
 }
 
-app.get('/nice', routes.pleasant);
+// app.get('/nice', routes.pleasant);
 app.get('/', routes.index);
 
 http.createServer(app).listen(app.get('port'), function(){

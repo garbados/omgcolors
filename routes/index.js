@@ -5,9 +5,7 @@
 
 exports.index = function(req, res){
   res.render('index', {
-    title: "OMG COLORS",
-    width: 255/2,
-    center: 255/2
+    title: "OMG COLORS"
   });
 };
 
