@@ -1,9 +1,4 @@
-@import "nib"
-
-// for num in 0..20
-//   s("%s% {background: hsl(%s, 100%, 50%);}", num*5, num*18)
-
-@keyframes omgcolors
+@keyframes omgcolors {
   0% {background: hsl(0, 100%, 50%);}
   5% {background: hsl(18, 100%, 50%);}
   10% {background: hsl(36, 100%, 50%);}
@@ -25,11 +20,17 @@
   90% {background: hsl(324, 100%, 50%);}
   95% {background: hsl(342, 100%, 50%);}
   100% {background: hsl(360, 100%, 50%);}
+}
 
-body
-  margin: 0
-  height: 100%
-  animation: omgcolors 1.5s linear 0 infinite alternate
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  animation: omgcolors 10s linear infinite;
+}
 
 .omg {
   width: 100%;
