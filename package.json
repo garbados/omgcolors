@@ -1,7 +1,7 @@
 {
-  "name": "omgcolors",
+  "name": "omgcolors-dargiday",
   "version": "1.0.0",
-  "description": "Pretty colors! CSS only! Ooooooh!",
+  "description": "Rawr! Happy birthday beloved dargron :3c",
   "main": "index.js",
   "scripts": {
     "prebuild": "mkdir -p public",
