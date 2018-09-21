@@ -1,7 +1,7 @@
 {
-  "name": "omgcolors",
+  "name": "omgcolors-bribday",
   "version": "1.0.0",
-  "description": "Pretty colors! CSS only! Ooooooh!",
+  "description": "Happy birthday, silly brib :3c",
   "main": "index.js",
   "scripts": {
     "prebuild": "mkdir -p public",
